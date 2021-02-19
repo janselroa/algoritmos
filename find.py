@@ -1,8 +1,8 @@
 #mi propia funcion/metodo find
 
-def find(sentencia, busqueda):
+def find(string, busqueda):
 	posicion=0
-	for i in sentencia:
+	for i in string:
 		if i==busqueda:
 			return posicion
 		posicion+=1
