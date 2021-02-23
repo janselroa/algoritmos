@@ -5,6 +5,7 @@ def index(array, sentencia):
 	for i in array:
 		if i==sentencia:
 			return pocicion
+			break
 
 		pocicion+=1
 
